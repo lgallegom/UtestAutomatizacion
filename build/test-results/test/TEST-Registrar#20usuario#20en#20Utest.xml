@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Registrar usuario en Utest" tests="1" skipped="1" failures="0" errors="0" timestamp="2021-06-22T22:39:01" hostname="CASA-PC" time="0.3">
+  <properties/>
+  <testcase name="Registrarse en el sitio web" classname="Registrar usuario en Utest" time="0.3">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@618a9475
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - TEST PENDING
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@62486a75
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@44e4c877
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@6b8b1295
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@38df9607
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - stepStarted: net.thucydides.core.steps.ExecutedStepDescription@68e99d11
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - testFinished: Registrarse en el sitio web:Example: {nombre=Berta Elena, apellido=Mazo Echeverri, correoElectronico=lauragallego473@gmail.com, mes=February, dia=14, año=1969, idioma=Spanish, ciudad=Itagüi, codigoPostal=055410, pais=Colombia, computador=Windows, version=7, idiomaComputador=Spanish, dispositivoMovil=Samsung, modelo=Galaxy J7, sitemaOperativoMovil=Android 10, contraseña=Berta1234_, confirmarContraseña=Berta1234_} [Dado que el usuario quiere registrarse en Utest, Cuando el usuario busca la opcion de registro, Entonces debe llenar los datos personales
+| nombre | apellido | correoElectronico | mes | dia | año | idioma |
+| Berta Elena | Mazo Echeverri | lauragallego473@gmail.com | February | 14 | 1969 | Spanish |, Y debe llenar los datos de su ubicacion
+| ciudad | codigoPostal | pais |
+| Itagüi | 055410 | Colombia |, Y debe llenar los datos de sus dispositivos
+| computador | version | idiomaComputador | dispositivoMovil | modelo | sitemaOperativoMovil |
+| Windows | 7 | Spanish | Samsung | Galaxy J7 | Android 10 |, Y debe crear una contraseña
+| contraseña | confirmarContraseña |
+| Berta1234_ | Berta1234_ |]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - TestOutcomes: [Registrarse en el sitio web:Example: {nombre=Berta Elena, apellido=Mazo Echeverri, correoElectronico=lauragallego473@gmail.com, mes=February, dia=14, año=1969, idioma=Spanish, ciudad=Itagüi, codigoPostal=055410, pais=Colombia, computador=Windows, version=7, idiomaComputador=Spanish, dispositivoMovil=Samsung, modelo=Galaxy J7, sitemaOperativoMovil=Android 10, contraseña=Berta1234_, confirmarContraseña=Berta1234_} [Dado que el usuario quiere registrarse en Utest, Cuando el usuario busca la opcion de registro, Entonces debe llenar los datos personales
+| nombre | apellido | correoElectronico | mes | dia | año | idioma |
+| Berta Elena | Mazo Echeverri | lauragallego473@gmail.com | February | 14 | 1969 | Spanish |, Y debe llenar los datos de su ubicacion
+| ciudad | codigoPostal | pais |
+| Itagüi | 055410 | Colombia |, Y debe llenar los datos de sus dispositivos
+| computador | version | idiomaComputador | dispositivoMovil | modelo | sitemaOperativoMovil |
+| Windows | 7 | Spanish | Samsung | Galaxy J7 | Android 10 |, Y debe crear una contraseña
+| contraseña | confirmarContraseña |
+| Berta1234_ | Berta1234_ |]]
+[Test worker] WARN net.thucydides.core.steps.BaseStepListener - Final testOutcomes: [Registrarse en el sitio web:Example: {nombre=Berta Elena, apellido=Mazo Echeverri, correoElectronico=lauragallego473@gmail.com, mes=February, dia=14, año=1969, idioma=Spanish, ciudad=Itagüi, codigoPostal=055410, pais=Colombia, computador=Windows, version=7, idiomaComputador=Spanish, dispositivoMovil=Samsung, modelo=Galaxy J7, sitemaOperativoMovil=Android 10, contraseña=Berta1234_, confirmarContraseña=Berta1234_} [Dado que el usuario quiere registrarse en Utest, Cuando el usuario busca la opcion de registro, Entonces debe llenar los datos personales
+| nombre | apellido | correoElectronico | mes | dia | año | idioma |
+| Berta Elena | Mazo Echeverri | lauragallego473@gmail.com | February | 14 | 1969 | Spanish |, Y debe llenar los datos de su ubicacion
+| ciudad | codigoPostal | pais |
+| Itagüi | 055410 | Colombia |, Y debe llenar los datos de sus dispositivos
+| computador | version | idiomaComputador | dispositivoMovil | modelo | sitemaOperativoMovil |
+| Windows | 7 | Spanish | Samsung | Galaxy J7 | Android 10 |, Y debe crear una contraseña
+| contraseña | confirmarContraseña |
+| Berta1234_ | Berta1234_ |]]
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
+          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
+ _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
+(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
+ |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
+(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
+                                                                                
+
+TEST PENDING: Registrarse en el sitio web
+---------------------------------------------------------------------------------
+]]></system-err>
+</testsuite>
